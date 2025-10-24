@@ -11,24 +11,7 @@ Tento projekt predstavuje robustný End-to-End (E2E) testovací a scrapingový f
 * **Reporting/Output:** XLSX knižnica pre generovanie formátovaného Excelu.
 * **Jazyk:** JavaScript (JS)
 
-## 📁 Štruktúra Priečinkov (Best Practice)
 
-
-## 📁 Štruktúra Priečinkov (Best Practice)
-Jasné, rozumiem. Toto je bežný problém, ak GitHub alebo Váš Markdown editor nevie správne interpretovať viacriadkové bloky textu, ak používate len jednoduché zalomenia riadkov (Enter).
-
-V Markdown je pre zachovanie štruktúry kľúčové použiť buď:
-
-Blok kódu (Code Block): Pomocou troch spätných apostrofov (```). Toto je najlepší a najspoľahlivejší spôsob pre štruktúry priečinkov.
-
-Až štyri medzery/tabulátor: Pre každý riadok, aby sa interpretoval ako "Preformátovaný text".
-
-V mojom návrhu som už použil blok kódu (```), ale je možné, že ste ho pri kopírovaní vynechali, alebo je v ňom chyba.
-
-KROK 153: Oprava Formátovania Štruktúry Priečinkov
-Prosím, uistite sa, že časť 📁 Štruktúra Priečinkov v súbore README.md vyzerá presne takto, vrátane troch spätných apostrofov (znaky ```):
-
-Markdown
 
 ## 📁 Štruktúra Priečinkov (Best Practice)
 /my-playwright-project ├── data/ │ 
@@ -67,10 +50,14 @@ Kľúčové Funkcie |
 | :--- | :---: | :--- |
 | **`juice.test.js`** | **V1** | **Základná funkčnosť (Smoke Test).
 ** Pravdepodobne prvé verzie testu, ktoré overovali jednoduchú navigáciu a vyhľadávanie s hardcoded hodnotami (bez dátového riadenia z Excelu).
+
+
 |
 | **`juice_data_extraction.test.js`** | **V2** | **Dátové riadenie (Data-Driven).
 ** Bola pridaná implementácia čítania hľadaných výrazov z externého Excel súboru. 
-Testovacia logika sa spúšťa v cykle (`forEach`) pre každý riadok dát. 
+Testovacia logika sa spúšťa v cykle (`forEach`) pre každý riadok dát.
+
+ 
 |
 | **`juice_data_extraction_v3.test.js`** | **V3 (Aktuálna)** | 
 **Profesionálny Reporting & Čistota dát.** Ide o finálnu verziu so zameraním na výstup a architektúru. 
