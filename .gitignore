@@ -1,0 +1,12 @@
+# Playwright STANDARD
+node_modules/
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+/playwright/.auth/
+
+# Node.js artifacts
+package-lock.json
+
+# VÝSLEDKY SCRAPINGU (Excel) 
